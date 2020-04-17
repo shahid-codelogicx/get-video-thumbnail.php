@@ -10,9 +10,9 @@ function get_video_thumbnail( $src ) {
 
 	$url_pieces = explode('/', $src);
 	
-	if ( $url_pieces[2] == 'vimeo.com' ) { // If Vimeo
+	if ( $url_pieces[2] == 'player.vimeo.com' ) { // If Vimeo
         
-		  $id = $url_pieces[3];
+		  $id = $url_pieces[4];
 		  $hash = unserialize(file_get_contents('https://vimeo.com/api/v2/video/' . $id . '.php'));
     
     /**
