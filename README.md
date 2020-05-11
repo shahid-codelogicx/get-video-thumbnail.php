@@ -1,2 +1,2 @@
-# get-video-thumbnail.php
+# get-video-thumbnail
 Get Video Thumbnail from Youtube and Vimeo
